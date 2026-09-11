@@ -1,0 +1,5 @@
+[
+  {"policy_id":"CSP-APP-01","application":"Synthetic Customer Portal","report_only":false,"owner":"Web Platform","directives":{"default-src":["'self'"],"script-src":["'self'"],"object-src":["'none'"],"base-uri":["'self'"],"frame-ancestors":["'none'"],"img-src":["'self'","data:"]}},
+  {"policy_id":"CSP-LEGACY-01","application":"Synthetic Legacy Portal","report_only":true,"owner":"Legacy Apps","directives":{"default-src":["*"],"script-src":["*","'unsafe-inline'","'unsafe-eval'"],"img-src":["*"]}},
+  {"policy_id":"CSP-DOCS-01","application":"Synthetic Documentation Site","report_only":false,"owner":"Developer Experience","directives":{"default-src":["'self'"],"script-src":["'self'"],"object-src":["'none'"],"base-uri":["'self'"],"frame-ancestors":["'self'"]}}
+]
